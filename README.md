@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 
 ## List of Open Source Alternatives that i use so far (damn microsoft apple google big techs overpriced shit and AI)
 
-- Email - Thunderbird (i have my gmail since 2014, looking for switch provider tho)
+- Email - Thunderbird (i have my gmail since 2014, looking for switch provider tho edt. Thunderbird has shit ui and no livesync)
 - Passwords - Bidwarden (not selfhosted but is good)
 - VPN - Tailscale and OpenVPN
 - Browser - Zen on pc firefox on phone, both with duckduckgo 
@@ -34,7 +34,7 @@ Here are some ideas to get you started:
 
 ## Want to try 
 - Next cloud 
-- Obsidian 
+- Obsidian edit I don't like self-hosted live sync here
 - Proton Stuff
 - NextCloud Stuff
 - Jellyfin (already have but not using much)

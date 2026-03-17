@@ -31,3 +31,4 @@
 - nixos discord pywal
 - anki pywal
 - obsidian anki tracker
+- pasokontan, a yomitan but for cs to be used mainly in leet code to make flashcards of functions in context (not sure if it's a good ideia, if already exists or if I'll ever make it)

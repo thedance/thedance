@@ -1,5 +1,7 @@
 ## Hi there 👋
 
+FROM 7TH SEPTEMBER ILL COMMIT EVERYDAY
+
 ## List of Open Source Alternatives that i use so far (microsoft apple google big techs overpriced shit and AI)
 
 - Email - Thunderbird (~~i have my gmail since 2014, looking for switch provider tho edt.~~ Thunderbird has shit ui and no livesync)

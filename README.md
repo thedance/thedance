@@ -33,5 +33,5 @@ FROM 7TH SEPTEMBER ILL COMMIT EVERYDAY
 - nixos discord pywal
 - anki pywal
 - obsidian anki tracker
-- pasokontan, a yomitan but for cs to be used mainly in leet code to make flashcards of functions in context (not sure if it's a good ideia, if already exists or if I'll ever make it)
-- Some kind of way to anki using my mind (I'm addicted to flashcards) 
+- Some kind of way to anki using my mind 
+- android app audio player + time tracker 

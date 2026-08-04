@@ -1,70 +1,71 @@
-![[ibm-think-conference-logo-02_1.png|268]]
+![[081.png|268]]
 # My Tech Stack
 
 #### FROM 7TH SEPTEMBER WANT TO COMMIT EVERYDAY
-I'm a big fan of [[heatmaps]], I became one since I started to use [[anki]], in September I'll start CS school and want to keep consistency by them
+I'm a big fan of heatmaps, I became one since I started to use anki, in September I'll start CS school and want to keep consistency by them
 
 ---
 
 ## Current open-source stack
 
 ### Email
-- [[Thunderbird]]
+- Thunderbird
 - Gmail
 
 ### Passwords
-- [[Bitwarden]]
+- Bitwarden
 
 ### VPN / Networking
-- [[Tailscale]]
-- [[OpenVPN]]
+- Tailscale
+- OpenVPN
 
 ### Browser
-- [[Zen Browser]]
-- [[Firefox]]
-- [[DuckDuckGo]]
+- Zen Browser
+- Firefox
+- DuckDuckGo
 
 ### IDE
-- [[VSCodium]]
+- VSCodium
 
 ### OS
-- [[NixOS]]
-- [[Android]]
+- NixOS
+- Android
 
 ### Cloud
-- [[Seafile]]
+- Seafile
+- Koofr
 
 ---
 
-## Big tech I still use (migration targets)
+## Big tech I still use
 
-- [[Spotify]]
-- [[YouTube]]
-- Google Keep → replace with [[Obsidian]]
-- [[Google Authenticator]]
-- [[Google Drive]]
-- [[OneDrive]]
-- [[Google Photos]]
-- [[GitHub]]
+- Spotify
+- YouTube
+- Google Keep → replace with Obsidian
+- Google Authenticator
+- Google Drive
+- OneDrive
+- Google Photos
+- GitHub
 
 ---
 
 ## Things I want to try
 
-- [[Nextcloud]]
-- [[Proton ecosystem]]
-- [[Jellyfin]]
-- [[Obsidian sync experiments]]
+- Nextcloud
+- Proton ecosystem
+- Jellyfin
+- Emby
+- Obsidian sync 
 
 ---
 
 ## Future projects
 
 - nixos + discord + pywal
-- [[anki]] + [[pywal]] system
-- android audio player + time tracker (mpv-based)
+- anki + pywal 
 
 ## Finished Projects
 
-[[obsidian → ankit tracker]]
-android audio player + time tracker (mpv-based)
+obsidian mpv tracker
+android mpv + time tracker

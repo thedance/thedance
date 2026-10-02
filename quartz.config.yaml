@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: thedance.github.io/thedance
+  baseUrl: "https://thedance.github.io/thedance"
   ignorePatterns:
     - private
     - templates
@@ -16,20 +16,18 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-        header: "Schibsted Grotesk"
-        body: "Source Sans Pro, Noto Sans JP"
-        code: "IBM Plex Mono, Noto Sans Mono"
+      header: Schibsted Grotesk
+      body: Source Sans Pro
+      code: IBM Plex Mono, Noto Sans Mono
     colors:
       lightMode:
-        light: "#f7f7f8"        # softer than pure white (eye-friendly)
-        lightgray: "#e6e6ea"    # subtle separation, not dirty gray
-        gray: "#a8a8b3"         # readable metadata text
-        darkgray: "#3a3a40"     # strong contrast text (still soft black)
-        dark: "#1a1a1f"         # near-black for emphasis text
-
-        secondary: "#ff6a00"    # ORANGE (matches your dark mode accent)
-        tertiary: "#ff0033"     # RED (keeps identity consistent)
-
+        light: "#f7f7f8"
+        lightgray: "#e6e6ea"
+        gray: "#a8a8b3"
+        darkgray: "#3a3a40"
+        dark: "#1a1a1f"
+        secondary: "#ff6a00"
+        tertiary: "#ff0033"
         highlight: rgba(255, 106, 0, 0.10)
         textHighlight: rgba(255, 106, 0, 0.22)
       darkMode:
@@ -38,12 +36,10 @@ configuration:
         gray: "#3a3a3a"
         darkgray: "#d9d9d9"
         dark: "#ffffff"
-
         secondary: "#ff0033"
         tertiary: "#ff6a00"
-
         highlight: rgba(255,255,255,0.08)
-        textHighlight: "rgba(255, 106, 0, 0.25)"
+        textHighlight: rgba(255, 106, 0, 0.25)
 plugins:
   - source: github:quartz-community/created-modified-date
     enabled: true
@@ -114,6 +110,9 @@ plugins:
     order: 92
   - source: github:quartz-community/fonts
     enabled: true
+    options:
+      useThemeFonts: true
+      fontOrigin: googleFonts
   - source: github:quartz-community/remove-draft
     enabled: true
   - source: github:quartz-community/explicit-publish
@@ -168,8 +167,7 @@ plugins:
       priority: 20
     options:
       localGraph:
-        depth: 2      # try 2 first (sweet spot)
-
+        depth: 2
       globalGraph:
         depth: -1
   - source: github:quartz-community/search

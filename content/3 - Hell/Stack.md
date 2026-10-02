@@ -1,5 +1,7 @@
 [[Map of Content]]
 
+## Stack
+
 # My Tech Stack
 
 #### FROM 7TH SEPTEMBER WANT TO COMMIT EVERYDAY
@@ -66,7 +68,10 @@ I'm a big fan of heatmaps, I became one since I started to use anki, in Septembe
 - nixos + discord + pywal
 - anki + pywal 
 
-## Finished Projects
+## Small Finished Projects
 
-obsidian mpv tracker
-android mpv + time tracker
+- obsidian mpv tracker
+- android mpv + time tracker
+
+### 参考
+[[Map of Content]]

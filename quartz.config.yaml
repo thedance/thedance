@@ -3,7 +3,7 @@ configuration:
   pageTitle: The Dance
   pageTitleSuffix: ""
   enableSPA: true
-  enablePopovers: true
+  enablePopovers: false
   analytics:
     provider: plausible
   locale: en-US
@@ -16,30 +16,31 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
-      code: IBM Plex Mono, Noto Sans Mono
+      header: Noto Sans JP
+      body: Noto Sans JP
+      code: IBM Plex Mono
     colors:
       lightMode:
-        light: "#f7f7f8"
-        lightgray: "#e6e6ea"
-        gray: "#a8a8b3"
-        darkgray: "#3a3a40"
-        dark: "#1a1a1f"
-        secondary: "#ff6a00"
-        tertiary: "#ff0033"
-        highlight: rgba(255, 106, 0, 0.10)
-        textHighlight: rgba(255, 106, 0, 0.22)
+        light: "#0c0d0c"
+        lightgray: "#292a27"
+        gray: "#77766f"
+        darkgray: "#f6eee0"
+        dark: "#f6eee0"
+        secondary: "#ED985B"
+        tertiary: "#F6AA6F"
+        highlight: "#292a27"
+        textHighlight: "#DEB06E"
+
       darkMode:
-        light: "#000000"
-        lightgray: "#111111"
-        gray: "#3a3a3a"
-        darkgray: "#d9d9d9"
-        dark: "#ffffff"
-        secondary: "#ff0033"
-        tertiary: "#ff6a00"
-        highlight: rgba(255,255,255,0.08)
-        textHighlight: rgba(255, 106, 0, 0.25)
+        light: "#0c0d0c"
+        lightgray: "#292a27"
+        gray: "#77766f"
+        darkgray: "#f6eee0"
+        dark: "#f6eee0"
+        secondary: "#ED985B"
+        tertiary: "#F6AA6F"
+        highlight: "#292a27"
+        textHighlight: "#DEB06E"
 plugins:
   - source: github:quartz-community/created-modified-date
     enabled: true
@@ -82,7 +83,7 @@ plugins:
     order: 50
     layout:
       position: right
-      priority: 10
+      priority: 40
   - source: github:quartz-community/crawl-links
     enabled: true
     options:
@@ -111,8 +112,11 @@ plugins:
   - source: github:quartz-community/fonts
     enabled: true
     options:
-      useThemeFonts: true
+      useThemeFonts: false
       fontOrigin: googleFonts
+      header: Noto Sans JP
+      body: Noto Sans JP
+      code: IBM Plex Mono
   - source: github:quartz-community/remove-draft
     enabled: true
   - source: github:quartz-community/explicit-publish
@@ -135,7 +139,7 @@ plugins:
       priority: 50
       display: all
   - source: github:quartz-community/alias-redirects
-    enabled: true
+    enabled: false
   - source: github:quartz-community/content-index
     enabled: true
     options:
@@ -152,11 +156,11 @@ plugins:
   - source: github:quartz-community/content-page
     enabled: true
   - source: github:quartz-community/folder-page
-    enabled: true
+    enabled: false
   - source: github:quartz-community/tag-page
-    enabled: true
+    enabled: false
   - source: github:quartz-community/explorer
-    enabled: true
+    enabled: false
     layout:
       position: left
       priority: 50
@@ -164,17 +168,28 @@ plugins:
     enabled: true
     layout:
       position: right
-      priority: 20
+      priority: 70
     options:
       localGraph:
         depth: 2
+        scale: 1
+        fontSize: 1.0
+        opacityScale: 1
+        linkDistance: 30
+        repelForce: 1
+        centerForce: 0.5
+        showTags: false
+        drag: true
+        zoom: true
+        focusOnHover: false
+        enableRadial: false
       globalGraph:
         depth: -1
   - source: github:quartz-community/search
     enabled: true
     layout:
-      position: left
-      priority: 20
+      position: right
+      priority: 10
       group: toolbar
       groupOptions:
         grow: true
@@ -189,7 +204,7 @@ plugins:
       position: beforeBody
       priority: 10
   - source: github:quartz-community/content-meta
-    enabled: true
+    enabled: false
     layout:
       position: beforeBody
       priority: 20
@@ -204,7 +219,7 @@ plugins:
       position: left
       priority: 10
   - source: github:quartz-community/darkmode
-    enabled: true
+    enabled: false
     layout:
       position: left
       priority: 30
@@ -216,7 +231,7 @@ plugins:
       priority: 35
       group: toolbar
   - source: github:quartz-community/breadcrumbs
-    enabled: true
+    enabled: false
     layout:
       position: beforeBody
       priority: 5

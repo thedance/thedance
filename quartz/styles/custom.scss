@@ -1,7 +1,115 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
-
 img {
   border-radius: 0 !important;
+}
+
+.graph-outer,
+.graph-container,
+.global-graph-outer,
+.global-graph-container {
+  border: none !important;
+  box-shadow: none !important;
+}
+.graph > h3 {
+  display: none;
+}
+
+h1[id] > a[href^="#"],
+h2[id] > a[href^="#"],
+h3[id] > a[href^="#"],
+h4[id] > a[href^="#"],
+h5[id] > a[href^="#"],
+h6[id] > a[href^="#"] {
+  display: none !important;
+}
+
+a.internal {
+  background: transparent !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+.search-button,
+.search-container,
+.search-space,
+.search-bar,
+.search-layout,
+.results-container,
+.preview-container {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none;
+}
+
+/* Remove rounded corners throughout search */
+.search-space > *,
+.search-layout,
+.results-container,
+.result-card,
+.preview-container,
+.preview-inner,
+.preview-container article,
+.preview-container .markdown-preview-view {
+  border-radius: 0 !important;
+}
+
+.backlinks,
+.backlinks ul,
+.backlinks ul.overflow {
+  height: auto !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
+
+.backlinks ul.overflow li {
+  white-space: normal !important;
+  overflow: visible !important;
+}
+
+.backlinks .overflow-end {
+  display: none !important;
+}
+.backlinks ul.overflow,
+.backlinks ul.overflow.gradient-active {
+  max-height: none !important;
+  height: auto !important;
+  overflow: visible !important;
+  mask-image: none !important;
+  -webkit-mask-image: none !important;
+  -webkit-mask: none !important;
+}
+
+.backlinks ul.overflow .overflow-end {
+  display: none !important;
+}
+
+article p:has(+ ul),
+article p:has(+ ol) {
+  margin-bottom: 0 !important;
+}
+
+article p + ul,
+article p + ol {
+  margin-top: 0.5rem !important;
+}
+
+.markdown-rendered ul,
+.markdown-rendered ol {
+  padding-left: 2rem !important;
+}
+
+article img {
+  display: block;
+  margin-bottom: 0 !important;
+}
+
+article img + em,
+article p:has(img) + p {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+article p:has(img) {
+  margin-bottom: 0 !important;
 }

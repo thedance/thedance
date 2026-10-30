@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: "https://thedance.github.io/thedance"
+  baseUrl: "thedance.github.io/thedance"
   ignorePatterns:
     - private
     - templates

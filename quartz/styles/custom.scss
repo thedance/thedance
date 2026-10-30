@@ -99,17 +99,23 @@ article p + ol {
   padding-left: 2rem !important;
 }
 
-article img {
-  display: block;
-  margin-bottom: 0 !important;
+
+pre,
+pre code,
+pre code span {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
 
-article img + em,
-article p:has(img) + p {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
+pre {
+  border-radius: 0 !important;
 }
 
-article p:has(img) {
-  margin-bottom: 0 !important;
+button.clipboard-button {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  border-radius: 0 !important;
 }

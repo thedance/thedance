@@ -1,6 +1,6 @@
 # Welcome | ようこそ
 
-I'm [thedance](https://github.com/thedance), this website should store some information on small projects that I make.
+I'm [thedance](https://github.com/thedance), this website should store some information on small projects and guides that I make.
 
 ## Japanese
 I study Japanese as a serious hobby, so I try to use my knowledge on systems in order to make some custom setups to make the whole process more either enjoyable and efficient
@@ -15,7 +15,7 @@ I'm the average follower of [r/thinkpad](https://www.reddit.com/r/thinkpad/) and
 
 ![[Pasted image 20261025213059.png|483]]
 ### Guides
-[[Idols]] - Anywhere free VPN
+[[Idols VPN]] - Anywhere free VPN
 - Oracle VPS (or other) personal VPN
 - Cloudflare Wraper to avoid IP blacklists
 - Tailscale 
@@ -25,3 +25,7 @@ I'm the average follower of [r/thinkpad](https://www.reddit.com/r/thinkpad/) and
 [[Ecstatic Dots]] - NixOS Hyprland
 - Pre-Installed Japanese Enviroment
 - Themes
+
+### Personal
+[[Bandit]]
+- Thoughts of some levels of the `Bandit` Linux game

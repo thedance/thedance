@@ -184,7 +184,7 @@ plugins:
         focusOnHover: false
         enableRadial: false
       globalGraph:
-        depth: 0
+        depth: -1
   - source: github:quartz-community/search
     enabled: true
     layout:
